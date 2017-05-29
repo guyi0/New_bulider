@@ -1,0 +1,190 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+@import "../node_modules/animate.css/animate.min.css";
+@import "color";
+@import "carousel";
+@import "profile_pages";
+
+/* EXAMPLE CSS STARTS */
+
+body{
+background-color:  #182026;
+
+}
+
+.jumbotron {
+
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar, .navbar-default {
+
+  background-color: rgba(37, 48, 56, 1);
+   border-color:inherit;
+.catalog a {
+color: red;
+
+
+
+}
+
+.navlinks{
+  margin-left: 74vw;
+
+
+}
+
+
+}
+
+
+.navbar-collapse{
+  #catalog {
+   color : #2afcf0;
+   font-family: 'Montserrat';
+   font-size: 1.5rem;
+
+ }
+
+ #Canvas {
+   color : #2bb6fd;
+   font-family: 'Montserrat';
+   font-size: 1.5rem;
+}
+#Johnny {
+  color : white;
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+}
+
+
+.jumbotron {
+background-color:inherit;
+h1{
+font-size: 28px;
+color: #2bb6fd;
+font-family: 'Montserrat';
+margin-top: 34px;
+
+}
+p {
+margin-top: 13px;
+font-weight: 200;
+font-size: 13px;
+color: #f0f3f8;
+text-align: center;
+line-height: 14px;
+}
+}
+
+.blueline {
+  height: 3px;
+  width: 43px;
+background-color: aquamarine;
+margin: auto;
+margin-bottom: 5%;
+
+}
+.container{
+.row {
+  margin-right: 2%;
+      margin-left: 9%
+
+}
+
+
+}
+
+.first {
+
+  margin-top:1.4%;
+}
+
+.last {
+
+  margin-top:0.6%;
+}
+
+.mid {
+
+  margin-top:2%;
+}
+
+.card {
+
+h4 {
+    margin-top: 46%;
+    font-family: 'Montserrat';
+ font-size: 19px;
+ font-weight: 200;
+ color: #ffffff;
+ text-align:center;
+}
+
+p {
+
+  font-family: 'Montserrat';
+font-size: 13px;
+font-weight: 200;
+color: #ffffff;
+}
+
+.btn {
+
+  height: 32px;
+  width: 95px;
+  background-color: #2bb6fd;
+  border-radius: 16px;
+   font-size: 1.1rem;
+
+}
+
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+
+
+
+    .blueline {
+display: none;
+
+    }
+
+
+
+    .card {
+
+    h4 {
+        margin-top: 28%;
+        font-family: 'Montserrat';
+     font-size: 1.8rem;
+
+    }
+
+
+
+    .btn {
+
+      height: 32px;
+      width: 95px;
+      background-color: #2bb6fd;
+      border-radius: 16px;
+       font-size: 1.1rem;
+       margin-bottom: 20%;
+        margin-top:10%;
+
+    }
+
+    }
+
+
+}

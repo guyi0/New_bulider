@@ -1,0 +1,90 @@
+
+.profile-page{
+
+.profile-card {
+
+width: 20rem;
+background-color: #273444;
+border: 1px solid #273444;
+border-radius: 15px;
+}
+
+.col-sm-3{
+    margin-left: -4%;
+    margin-top:1%;
+
+    img{
+    margin-top: 4vh;
+
+    }
+
+    .card h4 {
+    font-family: 'Montserrat';
+    margin-top: 3vh;
+    font-size: 19px;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+}
+
+}
+
+
+.list-inline {
+img:hover{
+background-color: white;
+
+}
+
+}
+  }
+
+
+
+
+  @media only screen  and (min-width : 1824px) {
+
+
+    .profile-page{
+
+    .profile-card {
+
+    width: 21vw;
+    background-color: #273444;
+    border: 1px solid #273444;
+    border-radius: 15px;
+    }
+
+    .col-sm-3{
+        margin-left: -4%;
+        margin-top:1%;
+
+        img{
+        margin-top: 4vh;
+
+        }
+
+        .card h4 {
+        font-family: 'Montserrat';
+        margin-top: 3vh;
+        font-size: 19px;
+        font-weight: 200;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    }
+
+
+    .list-inline {
+    img:hover{
+    background-color: red;
+
+    }
+
+    }
+      }
+
+
+/* Styles */
+}
