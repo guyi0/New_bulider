@@ -7,7 +7,7 @@ import 'scrollTo';
 $( document ).ready(function() {
   history.pushState(null, null, 'home')
   var fetchAndInsert,body
-var loc =[""]
+
 
 var fetchAndInsert = function (href) {
   $.ajax({
@@ -20,12 +20,7 @@ var fetchAndInsert = function (href) {
   })
 }
 $(window).on('popstate', function () {
-var lasturl =loc[loc.length-2]
-if (lasturl==undefined) {
-  fetchAndInsert("/")
-}
-console.log("lasturl",lasturl);
-fetchAndInsert(lasturl)
+fetchAndInsert(location.hash)
 
 })
 
@@ -35,9 +30,9 @@ nav.find('a').on('click',function (event) {
 var href= $(this).attr('href')
 
 // mainpulte history
-history.pushState(null,null, href)
+history.replaceState(null,null, href)
 
-loc.push(location.pathname)
+
 // fetch and chages
 
 fetchAndInsert(href)
